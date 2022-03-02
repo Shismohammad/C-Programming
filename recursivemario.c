@@ -1,4 +1,4 @@
-//not working
+//not working :D
 #include <stdio.h>
 void draw(int h);
 
