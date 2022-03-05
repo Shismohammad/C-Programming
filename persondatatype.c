@@ -24,7 +24,7 @@ int main (void)
     {
         if (strcmp(people[i].name , "david") == 0)
         {
-            printf("contact found ! number is :%i", people[i].number);
+            printf("contact found !\nThe number is :%i", people[i].number);
             return 0;
         }
     }

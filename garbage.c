@@ -6,7 +6,7 @@ int main (void)
 
     for (int i = 0; i < 5; i++)
     {
-        printf("%i\n",array[i]);
+        printf("%i\n",array[i]);//This will print garbage value
     }
     
 }
