@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-{  
+{  // program for string
    char str[5];
 
    printf("Enter a string : ");
