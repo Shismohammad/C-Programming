@@ -11,7 +11,7 @@ int main()
     
     for (int i=0;i<1000;i++)
     {
-        printf("This is for loop......!!!\n");
+        printf("This is for loop..!!\n");
     }
 
 }
