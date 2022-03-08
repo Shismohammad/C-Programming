@@ -6,12 +6,15 @@ int main()
 
    printf("Enter a string : ");
    gets(str);
-
+    //print given string
    printf("You entered: %s", str);
 
    return 0;
 
-    /**int a,b;
+    /**
+    //Size of data type
+    
+    int a,b;
     a=1;
     b=20;
     char c;
