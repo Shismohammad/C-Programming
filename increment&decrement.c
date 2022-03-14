@@ -1,6 +1,7 @@
     #include <stdio.h>  
     #include <conio.h>  
     int main ()  
+    
     {  /**
      // declare integer variables  
     int x, y, z, a, b, c;  
@@ -23,7 +24,6 @@
     printf (" \n The updated value of the Y: %d ", y);  
     printf (" \n The updated value of the Z: %d ", z);   
     return 0;  **/
-    #include<stdio.h>
 
   int x, y;
   x = 5;
