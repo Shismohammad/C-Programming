@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 int main()
-{  // program for string
-   char str[5];
+{  
+    // program for string
+    char str[5];
 
-   printf("Enter a string : ");
-   gets(str);
+    printf("Enter a string : ");
+    gets(str);
     //print given string
-   printf("You entered: %s", str);
+    printf("You entered: %s", str);
 
-   return 0;
+    return 0;
 
     /**
     //Size of data type
