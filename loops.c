@@ -3,7 +3,7 @@
 int main()
 {
     int i = 0;
-    while (i < 5000)
+    while (i < 10000)
     {
         printf("This is while loop...... !!!\n");
         i++;
