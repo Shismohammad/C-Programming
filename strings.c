@@ -17,6 +17,5 @@ int main (void)
     printf("\nThe null value :%i \n", *(s+13) );// This line will print nul value i.e 0. which indicates string end
 
     printf("\n%s",s);
- 
-}
 
+}

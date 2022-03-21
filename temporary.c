@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-int main()
-{  
+int main(void)
+{
+    printf("for temporary test code");
+    
     // program for string
     char str[5];
 
