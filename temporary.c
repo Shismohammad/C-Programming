@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main(void)
-{
-    printf("for temporary test code");
+{   
+    printf("For temporary test code\n");
     
     // program for string
     char str[5];
@@ -13,6 +13,7 @@ int main(void)
     printf("You entered: %s", str);
 
     return 0;
+    
 
     /**
     //Size of data type
