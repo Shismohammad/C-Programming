@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Code for abstraction and custom function
 void main()
 {  
     int a=300,b,c;

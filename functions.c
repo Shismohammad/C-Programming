@@ -1,6 +1,7 @@
 #include <stdio.h>
-int my_function(void);
+int my_function(void);// Prototyping
 
+//Code for getting positive number from user using abstraction and custom function
 int main (void)
 {
     int i ;
@@ -8,7 +9,6 @@ int main (void)
     printf("Here is your positive interger : %i !!!",i);
         
 }
-
 
 //my custom made fuction
 int my_function(void)
