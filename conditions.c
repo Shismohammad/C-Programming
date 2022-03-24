@@ -1,15 +1,17 @@
 #include <stdio.h>
 
+//Code for comparision using if else condition
 int main()
+{   
+    int a,b;
 
-{   int a,b,c;
-
+    //getting numbers from user
     printf("Enter number A : ");
     scanf("%i", &a); 
-
     printf("Enter number B : ");
     scanf("%i", &b); 
 
+    //compare a and b
     if (b<a)
     {
         printf("\nNumber A is greater than B");

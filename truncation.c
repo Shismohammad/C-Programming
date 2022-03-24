@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 // code to show truncation of two numbers
 int main()
 {   
