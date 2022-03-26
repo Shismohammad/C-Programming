@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+//Code to to print string.
 int main (void)
 {
     char c[] = "string";
