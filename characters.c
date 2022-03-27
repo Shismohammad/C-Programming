@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Code to print character and their ASCII value
 int main(void)
 {
     char c = 'A';
