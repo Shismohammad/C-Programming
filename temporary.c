@@ -13,11 +13,11 @@ int main(void)
     printf("You entered: %s", str);
 
     return 0;
-    
 
-    /**
+} 
+
     //Size of data type
-    
+    /**
     int a,b;
     a=1;
     b=20;
@@ -30,6 +30,5 @@ int main(void)
     }
     while (a<=10);
     printf("Size of interger in bytes : %d",sizeof(b-a)+sizeof(a-b));
-    printf("\nSize of character in bytes : %d", sizeof(c));**/
-
-}
+    printf("\nSize of character in bytes : %d", sizeof(c));
+} **/
