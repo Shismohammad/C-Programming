@@ -18,10 +18,10 @@ int main (void)
     printf("%c \n", *(s+3));
     printf("%c \n", *(s+4));
 
-    printf("\nThe NUL character value at 13th location : %i \n", *(s+13) );// This line will print NUL value i.e 0. which indicates string end
+    printf("\nThe NUL character value at 14th location : %i \n", *(s+13) );// This line will print NUL value i.e 0. which indicates string end
 
     int c;
     c = strlen(s);
-    printf("Total string length is % i",c);
+    printf("Total string length is %i",c);
 
 }

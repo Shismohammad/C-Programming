@@ -10,6 +10,6 @@ int main(int argc, char *argv[])
     else
     {
         printf("Command Line Argument missing");//if no argument used
-        return 1;
+        return 1;//Exit status
     }
 }

@@ -1,13 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
-//Code to to print string.
+//Code to get and print scores using array.
 int main (void)
-{
-    char c[] = "string";
-    int n = strlen(c) ;
+{      
+    int score[5];// Declaring array of size 5
 
-    printf("Character at location :%c",c[0]);
-    printf("\nSTRING LENGHT IS:%i",n);
+    printf("Enter 5 subjects scores\n");
+
+    for(int i = 0 ; i < 5 ; i++) // for loop to store scores at score[5] array
+    {
+        printf("Enter your scores : ");
+        scanf("%i",&score[i]);
+    }
+    
+    printf("Score of subject 1 is : %i\n",score[0]); // print scores at score[5] array
 
 }
