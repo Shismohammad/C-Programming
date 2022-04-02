@@ -9,6 +9,7 @@ int main(int argc, char *argv[])
     }
     else
     {
-        printf("Default: Hello World !");//if no argument used
+        printf("Command Line Argument missing");//if no argument used
+        return 1;
     }
 }
