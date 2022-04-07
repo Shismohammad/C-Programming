@@ -7,12 +7,12 @@ int main (void)
     
     for ( int i = 0; i < 7; i++)
     {
-        if (numbers[i] == 4)
+        if (numbers[i] == 3)
          {
             printf("Found that number");
             return 0; //Exit status and iff number found program will quit here not go to next line
          } 
     }
-    printf("Not found that number");
+    printf("Not found that number");// catch all
     return 1; // Exit status 
 }

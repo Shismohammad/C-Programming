@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
-//not compiling it need to be string// updated runing not verified.
-
+//not compiling it need to be string // updated runing not verified.
 typedef struct
 {   
     char *name;
     char *number;
 }
-person;
+person; //structure name
 
 int main (void)
 {
@@ -20,9 +19,9 @@ int main (void)
       people[1].name = "david";
       people[1].number = "9341355524";
 
-    for(int i=0; i<2; i++)
+    for( int i=0 ; i<2 ; i++ )
     {
-        if (strcmp(people[i].name , "david") == 0)
+        if ( strcmp (people[i].name , "david") == 0)
         {
             printf("contact found !\nThe number is :%i", people[i].number);
             return 0;
