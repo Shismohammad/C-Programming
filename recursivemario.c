@@ -11,13 +11,13 @@ int main(void)
 
 void draw(int h)// custom function
 {   
-    if (h ==0) // Base case senario
+    if ( h == 0 ) // Base case senario
     {
         return;
     }
 
-    draw(h-1);
-    for (int i=0;i<h;i++)
+    draw( h-1 );
+    for ( int i=0 ; i<h ; i++ )
     {
         printf("#");
     }
