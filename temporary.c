@@ -6,15 +6,14 @@ int main(void)
     printf("For temporary test code\n");
     
     // program for string
-    char str[5];
+    char str[6] = "hello";
 
-    printf("Enter a string : ");
-    gets(str);
+    //printf("Enter a string : ");
+    //gets(str);
     //print given string
-    printf("You entered: %s", str);
-
-    return 0;
-
+    str[4]='l';
+    printf("You entered string: %s\n", str);
+    printf("NUL : %i", str[5]);
 } 
 
     //Size of data type
