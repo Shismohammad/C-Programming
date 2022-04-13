@@ -4,24 +4,19 @@
 // Code to print string and NULL character or End \0
 int main (void)
 {
-    char *s = "Hello World !";
+    char *s = "Hello World !"; // here is *s is pointer variable of type char to declare string constant/immutable
+    typedef char *string; // create additional name/synonym string to char * using typedef
+    string text;
+    int length;
+    length = strlen(s); //store string length in l variable <<<<<
 
-    int a,b;
-    //b = sizeof(a); // sizeof() function gives size of datatype
-    //printf("Size of interger : %i bytes\n\n",b);
-    printf("\nYour string is : %s\n\n",s);
+    printf("\nYour string is : %s\n",s);
+    printf("The NUL character at last location : %i\n\n", *(s+13)); // This will print NUL value i.e \0. which indicates string end
+   
+    printf("Enter string : ");
+    scanf("%s",text); // get string from user and store it in text variable
+    printf("Here is your entered string : %s\n",text); // print out entered string
 
-    //printing string with pointers
-    printf("%c \n", *s);
-    printf("%c \n", *(s+1));
-    printf("%c \n", *(s+2));
-    printf("%c \n", *(s+3));
-    printf("%c \n", *(s+4));
-
-    printf("\nThe NUL character value at 14th location : %i \n", *(s+13) );// This line will print NUL value i.e 0. which indicates string end
-
-    int c;
-    c = strlen(s);
-    printf("Total string length is %i",c);
+    printf("Total string length is %i\n\n",length); // print total s string length
 
 }
