@@ -17,5 +17,5 @@ int main (void)
     printf("%c \n", *(s+4));
     printf("%c \n", *(s+5));
 
-    printf("The NUL character at last location : %i", *(s+6));
+    printf("The NUL character at last location in memory: %i", *(s+6));
 }

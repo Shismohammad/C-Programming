@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-//  hello world program 
+//  hello program 
 int main (void)
 {   
-    char name;
-    printf("Enter Your Name 1st character :");
-    scanf("%c",&name);
-    printf("Hello, %c !",name);
+    char *name;
+
+    printf("Enter Your Name : ");
+    scanf("%s",name);
+    printf("Hello, %s !",name);
     
 }

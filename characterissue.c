@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(void)
-
 {
     int a, b;
     char char1, char2;
