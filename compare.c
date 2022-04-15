@@ -6,9 +6,9 @@ int main (void)
 {
     char *s; char *t;
     printf("S:");
-    scanf("%s",s);
+    fgets(s,20,stdin);
     printf("T:");
-    scanf("%s",t);
+    gets(t);
 
     if (s == t)
     {
