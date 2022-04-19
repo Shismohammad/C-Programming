@@ -1,18 +1,17 @@
 #include <stdio.h>
 
+// code to get character from user and  
 int main(void)
 {
-    int a, b;
+    int a;
     char char1, char2;
 
-    printf("Enter integer: ");
-    scanf("%d",&a); 
-    printf("Enter other integer: ");
-    scanf("%d",&b); 
+    //printf("Enter integer: ");
+    //scanf("%d",&a); // every scanf() leaves a newline character in a buffer that is read by next scanf()
 
-    printf("Enter a char: "); // skipping problem
-    scanf("%c",&char1); // skipping problem
+    printf("Enter a char: "); 
+    scanf("%c",&char1); 
     printf("Enter another char: ");
-    scanf("%c",&char2);
+    scanf(" %c",&char2); // skipping problem solved by leading whitespace before %c
     
 }
