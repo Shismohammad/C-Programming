@@ -12,15 +12,49 @@ int main()
     scanf("%i", &b); 
 
     //compare a and b
-    if (b<a)
+    if ( b < a )
     {
-        printf("\nNumber A is greater than B");
+        printf("Number A is greater than B\n");
     }
-    else if (a<b)
+    else if ( a < b )
     {
-        printf("\nNumber B is greater than A");
+        printf("Number B is greater than A\n");
     }
     else
-    printf("\nBoth Numbers are equal !!");
+    printf("Both Numbers are equal !!\n");
     
+
+    int day;
+    printf("\nEnter a day : ");
+    scanf("%d",&day);
+
+    switch (day)
+    {
+    case 1 :
+        printf("Monday");
+        break;
+    case 2 :
+        printf("Tuesday");
+        break;
+    case 3 :
+        printf("wednesday");
+        break;
+    case 4 :
+        printf("Thursday");
+        break;
+    case 5 :
+        printf("Friday");
+        break;
+    case 6 :
+        printf("Saturday");
+        break;
+    case 7 :
+        printf("Sunday");
+        break;
+
+    default:
+        printf("Invalid input");
+        break;
+    }
+
 }
