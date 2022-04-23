@@ -6,6 +6,7 @@ int main(void)
     printf("***For temporary test code***\n");
     
     char str[6] = "Hello";// string using array of characters
+    // str = "Hello"; is not allowed
     str[0] = 'F';// (Mutable) changed H to F
 
     printf("You changed string : %s\n", str);

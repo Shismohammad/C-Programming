@@ -7,7 +7,7 @@ int main (void)
     int i ;
     i = my_function();//calling my_function . variable i get assiged the  return value of n. 
     printf("Here is your positive interger : %i !!!",i);
-        
+
 }
 
 //my custom made fuction
