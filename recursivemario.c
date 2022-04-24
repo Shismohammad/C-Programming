@@ -1,23 +1,25 @@
-//not working
 #include <stdio.h>
 void draw(int h);
 
+//Code to print mario pyramid structure using recursion
 int main(void)
 {
     int height;
-    scanf("Enter height: %i",&height);
-    draw(height);//calling function
+    printf("Enter height: ");
+    scanf("%i",&height);
+    draw(height);//calling draw function
 }
 
-void draw(int h)// custom function
+void draw(int h) // custom function
 {   
-    if ( h == 0 ) // Base case senario
+    if (h == 0) // Base case
     {
         return;
     }
 
-    draw( h-1 );
-    for ( int i=0 ; i<h ; i++ )
+    draw(h-1);
+
+    for ( int i=0 ; i < h ; i++ )
     {
         printf("#");
     }
