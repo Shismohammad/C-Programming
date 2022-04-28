@@ -1,15 +1,15 @@
 #include <stdio.h>
-long long fact (long long n);
+unsigned long long fact (int n);
 
-// code for calculating factorial of a number
+// code for calculating factorial of a number using recursion
 int main (void)
-{   long long n;
+{   int n; 
     printf("Enter a number : ");
-    scanf("%lld",&n);
-    printf("Factorial of number %lld is : %lld",n,fact(n));
+    scanf("%d",&n);
+    printf("Factorial of number %d is : %llu",n,fact(n));
 }
 
-long long fact (long long n)
+unsigned long long fact (int n) // int datatype is insufficient to store large number
 {
     if(n == 0)
     {
