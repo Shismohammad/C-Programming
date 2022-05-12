@@ -11,7 +11,7 @@ int main (void)
 
     //printing characters with pointer arithmatics
     printf("%c \n", *s); // here is *s means go to that address
-    printf("%c \n", *(s+1));
+    printf("%c \n", *(s+1)); // here (s+1) = s + (size of datatype)
     printf("%c \n", *(s+2));
     printf("%c \n", *(s+3));
     printf("%c \n", *(s+4));
