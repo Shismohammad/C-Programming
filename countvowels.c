@@ -6,16 +6,17 @@ int countvowels(char string[]);
 int main(void)
 {
     char string[100] = "hello world";
-    printf("STRING : %s\n", string);
-    printf("Total vowels : %d", countvowels(string));
+    printf("String : %s\n", string);
+    printf("Total vowels in string : %d",countvowels(string));
 }
 
 int countvowels(char string[])
 {
-    int count = 0;
+    int count = 0; // initialize and declare counter count to 0
+
     for(int i=0 ; string[i] != '\0'; i++ )
     {   
-        if(string[i] == 'a' || string[i] == 'e' || string[i] == 'i'|| string[i] == 'o'|| string[i] == 'u' )
+        if(string[i] == 'a' || string[i] == 'e' || string[i] == 'i'|| string[i] == 'o'|| string[i] == 'u')
         {
             count++;
         }
