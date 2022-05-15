@@ -11,7 +11,7 @@ person; //structure name
 
 int main (void)
 {
-      person people[2]; // declaring people variable array of type person
+      person people[2]; // declaring array of people variable of type person
 
       people[0].name = "brian" ;
       people[0].number = 8354153136;
