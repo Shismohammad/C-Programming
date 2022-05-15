@@ -1,29 +1,26 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 
+// code to make contact file using FILE functions
 int main (void)
 {
-    FILE *file;
-    file = fopen("phonebook.csv","a");  
+    FILE *file; // create file pointer with type FILE
+    file = fopen("phonebook.csv","a"); // open file in file pointer 
 
-    if (file == NULL)// or if (!file) // If file is not found it return 1.
+    if (file == NULL) // or if (!file) // If file is not found it return 1.
     {
         return   1;
     }
     
-    char name[100]; //char *name = malloc(100);
+    char name[100];
     printf("Enter Your name : ");
-    scanf("%s",name); // Bug : after space bar string gets considerd for second input
+    fgets(name,100,stdin);
 
-    char number[100]; //char *number = malloc(100);
+    char number[100]; 
     printf("Enter Your Number : ");
-    scanf("%s",number);
+    fgets(number,100,stdin);
 
-    fprintf(file,"Name: %s \nNumber: %s\n\n",name,number); 
+    fprintf(file,"\nName: %sNumber: %s",name,number); // print to phonebook.csv file
     fclose(file);
 
-    //free(name);
-    //free(number);
-     
 }
