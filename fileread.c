@@ -1,21 +1,20 @@
 #include <stdio.h>
 #include <string.h>
 
-
+// code to read from file
 int main(void)
 {
     FILE *fileptr;
-    char filestring[1000];
+    fileptr = fopen("file.text","r");
+    char filestring[100];
 
-    if (fileptr == NULL)
+    if (fileptr == NULL) // If file is not found it return 1.
     {
         return 1;
     }
     
-    fileptr = fopen("file.text","r");
     fscanf(fileptr,"%s",filestring);
     printf("%s",filestring);
 
     fclose(fileptr);
-
 }
