@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 // code for linked list using struct and dynamic memory allocation 
-typedef struct node
+typedef struct node 
 {
     int number;
-    struct node *next;
+    struct node *next; // Self Referential Structures
 }
 node;
 
