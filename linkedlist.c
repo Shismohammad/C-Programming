@@ -9,12 +9,13 @@ typedef struct node
 }
 node;
 
-int main (void)
+int main(void)
 {
     node *list; // creating list pointer variable which will points to linked list
     list = NULL;
 
     node *n; // n is temporary pointer variable of type node
+
     n = malloc(sizeof(node)); // allocating memory of size node to n pointer
     if (n == NULL)
     {
